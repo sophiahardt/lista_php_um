@@ -4,11 +4,12 @@ Crie uma função chamada inverterTexto() que receba uma string e retorne o text
 Além disso, exiba a quantidade de caracteres existentes na string original.-->
 
 <?php
-function inverterTexto($texto){
+function inverterTexto($texto)
+{
 
-$textoInvertido = strrev($texto);
-$quantidadeCaracteres = strlen($texto);
-return array($textoInvertido, $quantidadeCaracteres);
+    $textoInvertido = strrev($texto);
+    $quantidadeCaracteres = strlen($texto);
+    return array($textoInvertido, $quantidadeCaracteres);
 }
 
 $texto = "paralelamente";
